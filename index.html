@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="screen">
+            <div id="w"></div>
+        </div>
+       <div id="but" >
+            <button id="add">add element</button>
+            <button id="remove">remove </button>
+       </div>
+       
+        <div id="dir" name='direction'>
+            
+            <form name='dir'>
+                <p>flex direction</p>
+                <input type="radio" name="flexdirection" value='column'> column <br/>
+                <input type="radio" name="flexdirection"  value='row' checked> row <br/>
+            </form>
+
+            <form name='rap'>
+                <p>flex wrap property</p>
+                <input type="radio" name="flexwrap" value='wrap'> wrap <br/>
+                <input type="radio" name="flexwrap"  value='nowrap' checked> no-wrap <br/>
+            </form>
+         </div>
+
+       <div id="wrap">
+            <div id="justify">
+                <p>justify content</p>
+                <form id="js" name='js'>
+                    <input type="radio" name="just" value='center' checked> center <br/>
+                    <input type="radio" name="just"  value='space-around'> spacearound <br/>
+                    <input type="radio" name="just"  value='space-between'> space between <br/>
+                    <input type="radio" name="just"  value='flex-start'> flex start <br/>
+                    <input type="radio" name="just"  value='flex-end'> flex end <br/>
+                </form>
+            </div>
+
+            <div id="align">
+                <p>align items</p>
+                <form  id="al" name ='al' >
+                    <input type="radio" name="align" value='center' checked> center <br/>
+                    <input type="radio" name="align"  value='space-around'> spacearound <br/>
+                    <input type="radio" name="align" value='space-between'> space between <br/>
+                    <input type="radio" name="align"  value='flex-start'> flex start <br/>
+                    <input type="radio" name="align"  value='flex-end'> flex end <br/>
+                </form>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
